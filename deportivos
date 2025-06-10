@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Autos Deportivos</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <header>
+    <h1>Autos Deportivos</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#modelos">Modelos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio">
+      <h2>Bienvenidos</h2>
+      <p>Explora el mundo de los autos deportivos más rápidos, potentes y elegantes.</p>
+      <img src="https://cdn.pixabay.com/photo/2016/03/09/09/30/ferrari-1246240_960_720.jpg" alt="Auto deportivo" class="inicio-img">
+    </section>
+
+    <section id="modelos">
+      <h2>Modelos Destacados</h2>
+
+      <article class="auto">
+        <h3>Ferrari F8 Tributo</h3>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Ferrari_F8_Tributo_IMG_3627.jpg/800px-Ferrari_F8_Tributo_IMG_3627.jpg" alt="Ferrari F8" />
+        <p>Motor V8, 710 HP, 0-100 km/h en 2.9 segundos.</p>
+        <p><a href="https://www.ferrari.com/en-EN/auto/f8-tributo" target="_blank">Ver más en Ferrari</a></p>
+      </article>
+
+      <article class="auto">
+        <h3>Lamborghini Huracán EVO</h3>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Lamborghini_Huracan_EVO_IMG_0613.jpg/800px-Lamborghini_Huracan_EVO_IMG_0613.jpg" alt="Lamborghini Huracán EVO" />
+        <p>Motor V10, 631 HP, diseño aerodinámico y tracción integral.</p>
+        <p><a href="https://www.lamborghini.com/en-en/models/huracan/huracan-evo" target="_blank">Ver más en Lamborghini</a></p>
+      </article>
+
+      <article class="auto">
+        <h3>Bugatti Chiron</h3>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Bugatti_Chiron_IMG_0251.jpg/800px-Bugatti_Chiron_IMG_0251.jpg" alt="Bugatti Chiron" />
+        <p>W16 Quad-Turbo, 1500 HP, velocidad máxima de 420 km/h.</p>
+        <p><a href="https://www.bugatti.com/chiron/" target="_blank">Ver más en Bugatti</a></p>
+      </article>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Autos Deportivos. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
